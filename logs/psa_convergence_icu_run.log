@@ -1,0 +1,51 @@
+Corrected headline p(molecular cost-minimising):
+  SARS-CoV-2        97.23%
+  Influenza A/B     93.29%
+  Mpox              97.25%
+  Norovirus         71.69%
+  Ebola             86.77%
+  Diphtheria        81.22%
+Pre-specified rule applied to corrected results -> most decisive: Mpox; least decisive: Norovirus
+Pre-specified representatives (fixed, not re-selected): ['Influenza A/B', 'Diphtheria']
+NOTE: under the corrected results the rule now selects ['Mpox', 'Norovirus']; these are additionally run and labelled POST-HOC.
+  [verify] Influenza A/B: cost vectors identical to authoritative psa_icu.py run
+
+=== Influenza A/B (PRIMARY) -- seed=20260812, ICU frac=0.17, ICU LOS=5 ===
+  N=  1000  No systematic screening=  0.7%(+/-0.26pp)  Rapid Antigen Test (RAT)=  6.1%(+/-0.76pp)  Laboratory PCR=  0.1%(+/-0.10pp)  High-throughput molecular screening= 93.1%(+/-0.80pp)
+  N=  5000  No systematic screening=  0.4%(+/-0.09pp)  Rapid Antigen Test (RAT)=  6.1%(+/-0.34pp)  Laboratory PCR=  0.0%(+/-0.02pp)  High-throughput molecular screening= 93.4%(+/-0.35pp)
+  N= 10000  No systematic screening=  0.4%(+/-0.06pp)  Rapid Antigen Test (RAT)=  6.3%(+/-0.24pp)  Laboratory PCR=  0.0%(+/-0.01pp)  High-throughput molecular screening= 93.3%(+/-0.25pp)
+  Molecular: |5k->10k| change = 0.150pp
+  Top correlates of 'molecular won': molecular_cost r=-0.237, VSL r=+0.223, rapid_sensitivity r=-0.220, CFR_pct r=+0.180, rapid_cost r=+0.147
+  [verify] Diphtheria: cost vectors identical to authoritative psa_icu.py run
+
+=== Diphtheria (PRIMARY) -- seed=20260816, ICU frac=None, ICU LOS=None ===
+  N=  1000  No systematic screening=  3.0%(+/-0.54pp)  Rapid Antigen Test (RAT)=  9.3%(+/-0.92pp)  Laboratory PCR=  7.3%(+/-0.82pp)  High-throughput molecular screening= 80.4%(+/-1.26pp)
+  N=  5000  No systematic screening=  3.2%(+/-0.25pp)  Rapid Antigen Test (RAT)=  8.4%(+/-0.39pp)  Laboratory PCR=  7.4%(+/-0.37pp)  High-throughput molecular screening= 81.0%(+/-0.55pp)
+  N= 10000  No systematic screening=  3.1%(+/-0.17pp)  Rapid Antigen Test (RAT)=  8.4%(+/-0.28pp)  Laboratory PCR=  7.2%(+/-0.26pp)  High-throughput molecular screening= 81.2%(+/-0.39pp)
+  Molecular: |5k->10k| change = 0.200pp
+  Top correlates of 'molecular won': molecular_cost r=-0.170, VSL r=+0.146, molecular_sensitivity r=+0.140, rapid_sensitivity r=-0.118, lab_sensitivity r=-0.117
+  [verify] Mpox: cost vectors identical to authoritative psa_icu.py run
+
+=== Mpox (PRIMARY-POSTHOC) -- seed=20260813, ICU frac=0.07, ICU LOS=5 ===
+  N=  1000  No systematic screening=  0.0%(+/-0.00pp)  Rapid Antigen Test (RAT)=  0.0%(+/-0.00pp)  Laboratory PCR=  3.0%(+/-0.54pp)  High-throughput molecular screening= 97.0%(+/-0.54pp)
+  N=  5000  No systematic screening=  0.0%(+/-0.00pp)  Rapid Antigen Test (RAT)=  0.1%(+/-0.04pp)  Laboratory PCR=  2.4%(+/-0.21pp)  High-throughput molecular screening= 97.6%(+/-0.22pp)
+  N= 10000  No systematic screening=  0.0%(+/-0.00pp)  Rapid Antigen Test (RAT)=  0.1%(+/-0.02pp)  Laboratory PCR=  2.7%(+/-0.16pp)  High-throughput molecular screening= 97.2%(+/-0.16pp)
+  Molecular: |5k->10k| change = 0.310pp
+  Top correlates of 'molecular won': molecular_sensitivity r=+0.272, VSL r=-0.138, lab_sensitivity r=-0.137, CFR_pct r=-0.135, lab_cost r=+0.109
+  [verify] Norovirus: cost vectors identical to authoritative psa_icu.py run
+
+=== Norovirus (PRIMARY-POSTHOC) -- seed=20260814, ICU frac=0.03, ICU LOS=2 ===
+  N=  1000  No systematic screening= 22.2%(+/-1.31pp)  Rapid Antigen Test (RAT)=  4.6%(+/-0.66pp)  Laboratory PCR=  0.0%(+/-0.00pp)  High-throughput molecular screening= 73.2%(+/-1.40pp)
+  N=  5000  No systematic screening= 22.5%(+/-0.59pp)  Rapid Antigen Test (RAT)=  5.6%(+/-0.33pp)  Laboratory PCR=  0.0%(+/-0.00pp)  High-throughput molecular screening= 71.9%(+/-0.64pp)
+  N= 10000  No systematic screening= 22.7%(+/-0.42pp)  Rapid Antigen Test (RAT)=  5.6%(+/-0.23pp)  Laboratory PCR=  0.0%(+/-0.00pp)  High-throughput molecular screening= 71.7%(+/-0.45pp)
+  Molecular: |5k->10k| change = 0.250pp
+  Top correlates of 'molecular won': molecular_cost r=-0.227, VSL r=+0.162, infectious_period r=-0.104, Rt r=+0.084, hosp_duration r=+0.074
+
+=== Measles (STRESS-TEST) -- seed=20260911, ICU frac=None, ICU LOS=None ===
+  N=  1000  No systematic screening=  0.0%(+/-0.00pp)  Rapid Antigen Test (RAT)=  0.2%(+/-0.14pp)  Laboratory PCR= 26.3%(+/-1.39pp)  High-throughput molecular screening= 73.5%(+/-1.40pp)
+  N=  5000  No systematic screening=  0.0%(+/-0.00pp)  Rapid Antigen Test (RAT)=  0.1%(+/-0.05pp)  Laboratory PCR= 27.0%(+/-0.63pp)  High-throughput molecular screening= 72.9%(+/-0.63pp)
+  N= 10000  No systematic screening=  0.0%(+/-0.00pp)  Rapid Antigen Test (RAT)=  0.1%(+/-0.03pp)  Laboratory PCR= 27.0%(+/-0.44pp)  High-throughput molecular screening= 72.9%(+/-0.44pp)
+  Molecular: |5k->10k| change = 0.030pp
+  Top correlates of 'molecular won': molecular_sensitivity r=+0.468, lab_sensitivity r=-0.442, VSL r=-0.103, lab_cost r=+0.099, Rt r=+0.091
+
+Wrote results/psa_icu_convergence_final.csv

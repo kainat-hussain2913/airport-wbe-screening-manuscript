@@ -1,0 +1,9 @@
+{
+  "run_timestamp": "2026-09-16T02:56:54.321054",
+  "engine_path": "/home/claude/analysis/wbe_v2/engine.py",
+  "n_total": 10000,
+  "purpose": "Sensitivity over unresolved ICU inputs at Table 4 scale (N=10,000)",
+  "d_primary": 5,
+  "prob_scenario": "base",
+  "avian_included": false
+}

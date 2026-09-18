@@ -1,0 +1,28 @@
+Engine: /home/claude/work/wbe_v2/engine.py  OK (ICU + cost overrides present)
+Test-cost draws propagated: True
+N_ITER=10000 per pathogen, base SEED=20260811, per-pathogen seed = SEED + index
+[1/6] SARS-CoV-2: PSA, 10000 iterations, seed=20260811 ...
+      done in 145s
+[2/6] Influenza A/B: PSA, 10000 iterations, seed=20260812 ...
+      done in 144s
+[3/6] Mpox: PSA, 10000 iterations, seed=20260813 ...
+      done in 146s
+[4/6] Norovirus: PSA, 10000 iterations, seed=20260814 ...
+      done in 145s
+[5/6] Ebola: PSA, 10000 iterations, seed=20260815 ...
+      done in 145s
+[6/6] Diphtheria: PSA, 10000 iterations, seed=20260816 ...
+      done in 138s
+
+ICU-enabled PSA - strategy-selection probabilities
+Pathogen         ICU frac  p(none)   p(RAT)    p(lab)    p(molecular)
+----------------------------------------------------------------------
+SARS-CoV-2       0.15         0.00%     0.01%     2.76%      97.23%
+Influenza A/B    0.17         0.37%     6.33%     0.01%      93.29%
+Mpox             0.07         0.00%     0.05%     2.70%      97.25%
+Norovirus        0.03        22.71%     5.60%     0.00%      71.69%
+Ebola            0.35         0.00%     0.00%    13.23%      86.77%
+Diphtheria       None         3.12%     8.41%     7.25%      81.22%
+
+Seed base=20260811 (per-pathogen SEED+index), N_ITER=10000, elapsed=863s
+Wrote results/psa_icu_summary.csv, results/psa_icu_strategy_probabilities.csv, results/psa_icu_metadata.json

@@ -1,0 +1,20 @@
+{
+  "run_datetime_utc": "2026-09-16T02:36:22.390975Z",
+  "engine_path": "/home/claude/analysis/wbe_v2/engine.py",
+  "d_primary": 5,
+  "prob_scenario": "base",
+  "avian_included": false,
+  "n_total": 14082,
+  "n_downstream": 10000000,
+  "revised_influenza_icu_fraction": 0.17,
+  "revised_influenza_icu_los": 5,
+  "portfolio_ev_sensitivity": {
+    "mid": 6396838.948323352,
+    "noro_low": 6378820.508900213,
+    "noro_high": 6429272.13928504,
+    "ebola_field": 6391957.541548753,
+    "ebola_western": 6406000.973346449,
+    "worst_case": 6438434.164308137,
+    "best_case": 6373939.102125614
+  }
+}

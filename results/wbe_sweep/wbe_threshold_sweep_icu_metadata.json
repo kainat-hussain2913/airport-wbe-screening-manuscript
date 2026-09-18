@@ -1,0 +1,32 @@
+{
+  "run_timestamp": "2026-09-16T03:23:34.814726",
+  "n_total": 10000,
+  "horizon_days": 365,
+  "pathogens": [
+    "SARS-CoV-2",
+    "Mpox",
+    "Norovirus",
+    "Ebola"
+  ],
+  "icu_params": {
+    "SARS-CoV-2": {
+      "icu_fraction": 0.15,
+      "icu_los_days": 7
+    },
+    "Mpox": {
+      "icu_fraction": 0.07,
+      "icu_los_days": 5
+    },
+    "Norovirus": {
+      "icu_fraction": 0.03,
+      "icu_los_days": 2
+    },
+    "Ebola": {
+      "icu_fraction": 0.35,
+      "icu_los_days": 10
+    }
+  },
+  "n_rows": 57456,
+  "elapsed_seconds": 308.15904116630554,
+  "note": "ICU-enabled WBE threshold sweep at manuscript baseline N=10,000"
+}

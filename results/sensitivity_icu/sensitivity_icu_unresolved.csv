@@ -1,0 +1,12 @@
+pathogen,scenario,lead_days,variant,icu_fraction,icu_los_days,note,bd_total,bd_no_icu,icu_increment,deaths_averted,delta_pct_vs_no_icu,portfolio,primary_screening
+Norovirus,A,5,low,0.01,1,Near-zero; very rare ICU for norovirus (immunocompetent),48923307.4553383,48743123.0611068,180184.39423149824,6.005783052983446,0.3696611602125086,,
+Norovirus,A,5,mid,0.03,2,Structural placeholder (current base case),49824229.426495254,48743123.061106116,1081106.3653891385,6.005783052983446,2.2179669612753887,,
+Norovirus,A,5,high,0.05,3,Upper plausible bound; no primary source,51445888.97457963,48743123.0611068,2702765.9134728312,6.005783052983446,5.544917403188363,,
+Ebola,A,5,field,0.05,5,Field-hospital / community setting; W Africa 2014-16 <5% formal ICU (Feldmann NRM 2020),1131240189.9093885,1130864697.080573,375492.8288154602,320.1814467006134,0.03320404552240671,,
+Ebola,A,5,mid,0.35,10,Intermediate-resource context (current base case structural assumption),1136121596.6839874,1130864697.0805714,5256899.603415966,320.1814467006134,0.46485663731365245,,
+Ebola,A,5,western,0.8,12,High-resource Western ICU setting; near-universal (Feldmann NRM 2020),1145283621.7070856,1130864697.0805733,14418924.626512289,320.1814467006134,1.275035348060295,,
+Diphtheria,A,5,zero,,,Unresolved — treated as zero (current base case; NOT a sourced zero),135842063.797679,135842063.797679,0.0,39.06154033979199,,False,True
+Diphtheria,A,5,low,0.1,5,Exploratory lower bound — WHO guidance: ICU monitoring for laryngeal/cardiac complications; no fraction cited,136072558.9576496,135842063.79767868,230495.15997090936,39.06154033979199,,False,True
+Diphtheria,A,5,high,0.3,7,Exploratory upper bound — if myocarditis-requiring-ICU rate from clinical guidance applied; no fraction cited,136810143.4695566,135842063.79767877,968079.6718778312,39.06154033979199,,False,True
+Avian_H5N1_stress,A,5,seasonal_proxy,0.17,5,Current proxy: seasonal influenza FluSurv-NET 16.7% (Lancet Microbe 2023),9646364945.790613,9615012065.270952,31352880.51966095,2707.40155155333,,,
+Avian_H5N1_stress,A,5,intermediate,0.5,8,Intermediate exploratory: conservative avian-specific estimate; NOT a validated H5N1 figure,9762555032.422304,9615012065.270954,147542967.15135002,2707.40155155333,,,

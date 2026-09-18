@@ -1,0 +1,35 @@
+QA log — reconciliation_10k.py
+Run timestamp: 2026-09-16T01:38:34.742666Z
+
+[PASS] IC lam0 > 0, finite (SARS-CoV-2)
+       lam0 = 60.0000
+[PASS] IC lam0 > 0, finite (Mpox)
+       lam0 = 22.4000
+[PASS] IC lam0 > 0, finite (Norovirus)
+       lam0 = 75.0000
+[PASS] IC lam0 > 0, finite (Ebola)
+       lam0 = 5.4000
+[PASS] All pathogens have valid lam0
+[PASS] B(0) = 0 (all pathogens × modalities × scenarios)
+       All pass
+[PASS] Scen A CM fixed at 21, d=2
+       immediate=21, delayed=21
+[PASS] Scen B CM shifts, d=2
+       immediate=21, delayed=23
+[PASS] Scen A CM fixed at 21, d=5
+       immediate=21, delayed=21
+[PASS] Scen B CM shifts, d=5
+       immediate=21, delayed=26
+[PASS] Scen A CM fixed at 21, d=10
+       immediate=21, delayed=21
+[PASS] Scen B CM shifts, d=10
+       immediate=21, delayed=31
+[PASS] Scen A CM fixed at 21, d=14
+       immediate=21, delayed=21
+[PASS] Scen B CM shifts, d=14
+       immediate=21, delayed=35
+[PASS] All CM timing checks passed
+[PASS] Negative raw Bd rows preserved and accessible
+       0 negative Bd rows (of 96 total): 
+
+Overall: ALL PASS

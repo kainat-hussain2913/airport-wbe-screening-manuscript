@@ -1,0 +1,54 @@
+{
+  "run_datetime_utc": "2026-09-18T05:20:27.582430Z",
+  "d": 5,
+  "prob_scenario": "base",
+  "avian_included": false,
+  "icu_params": {
+    "SARS-CoV-2": {
+      "fraction": 0.15,
+      "los_days": 7
+    },
+    "Influenza A": {
+      "fraction": 0.17,
+      "los_days": 5
+    },
+    "Mpox": {
+      "fraction": 0.07,
+      "los_days": 5
+    },
+    "Norovirus": {
+      "fraction": 0.03,
+      "los_days": 2
+    },
+    "Ebola": {
+      "fraction": 0.35,
+      "los_days": 10
+    }
+  },
+  "key_results": {
+    "Australia_A": {
+      "icu_annual_usd": 22600024.50340161,
+      "baseline_annual_usd": 22500000,
+      "delta_pct": 0.44455334845160444,
+      "threshold_per_flight": 293.72806144110643
+    },
+    "Australia_B": {
+      "icu_annual_usd": 39705575.88790837,
+      "baseline_annual_usd": 39400000,
+      "delta_pct": 0.7755733195643891,
+      "threshold_per_flight": 516.0455393401311
+    },
+    "United_States_A": {
+      "icu_annual_usd": 154210879.52623618,
+      "baseline_annual_usd": 152900000,
+      "delta_pct": 0.8573443598666949,
+      "threshold_per_flight": 352.0796336215438
+    },
+    "United_States_B": {
+      "icu_annual_usd": 282597478.039001,
+      "baseline_annual_usd": 280000000,
+      "delta_pct": 0.9276707282146386,
+      "threshold_per_flight": 645.1997215502306
+    }
+  }
+}

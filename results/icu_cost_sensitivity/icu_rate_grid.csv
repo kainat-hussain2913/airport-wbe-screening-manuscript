@@ -1,0 +1,85 @@
+pathogen,prevalence_scenario,icu_rate_usd_per_day,cost_minimising_strategy,total_cost_best,icu_cost_best,icu_share_of_total_pct,pct_change_total_vs_3000,strategy_changed_vs_3000
+Diphtheria,0.5x,2000,molecular,81226995.15,0.0,0.0,0.0,False
+Diphtheria,0.5x,3000,molecular,81226995.15,0.0,0.0,0.0,False
+Diphtheria,0.5x,4500,molecular,81226995.15,0.0,0.0,0.0,False
+Diphtheria,0.5x,6000,molecular,81226995.15,0.0,0.0,0.0,False
+Diphtheria,1x,2000,molecular,90370245.43,0.0,0.0,0.0,False
+Diphtheria,1x,3000,molecular,90370245.43,0.0,0.0,0.0,False
+Diphtheria,1x,4500,molecular,90370245.43,0.0,0.0,0.0,False
+Diphtheria,1x,6000,molecular,90370245.43,0.0,0.0,0.0,False
+Diphtheria,2x,2000,molecular,108655507.93,0.0,0.0,0.0,False
+Diphtheria,2x,3000,molecular,108655507.93,0.0,0.0,0.0,False
+Diphtheria,2x,4500,molecular,108655507.93,0.0,0.0,0.0,False
+Diphtheria,2x,6000,molecular,108655507.93,0.0,0.0,0.0,False
+Ebola,0.5x,2000,molecular,241886957.34,523952.75,0.2166,-0.1082,False
+Ebola,0.5x,3000,molecular,242148933.72,785929.12,0.3246,0.0,False
+Ebola,0.5x,4500,molecular,242541898.28,1178893.68,0.4861,0.1623,False
+Ebola,0.5x,6000,molecular,242934862.84,1571858.24,0.647,0.3246,False
+Ebola,1x,2000,molecular,411688663.27,1047899.57,0.2545,-0.1271,False
+Ebola,1x,3000,molecular,412212613.06,1571849.36,0.3813,0.0,False
+Ebola,1x,4500,molecular,412998537.74,2357774.04,0.5709,0.1907,False
+Ebola,1x,6000,molecular,413784462.42,3143698.72,0.7597,0.3813,False
+Ebola,2x,2000,molecular,751286317.73,2095775.46,0.279,-0.1393,False
+Ebola,2x,3000,molecular,752334205.46,3143663.19,0.4179,0.0,False
+Ebola,2x,4500,molecular,753906037.05,4715494.78,0.6255,0.2089,False
+Ebola,2x,6000,molecular,755477868.65,6287326.37,0.8322,0.4179,False
+Influenza A/B,0.5x,2000,molecular,76864400.0,46646.8,0.0607,-0.0303,False
+Influenza A/B,0.5x,3000,molecular,76887723.4,69970.19,0.091,0.0,False
+Influenza A/B,0.5x,4500,molecular,76922708.49,104955.29,0.1364,0.0455,False
+Influenza A/B,0.5x,6000,molecular,76957693.59,139940.39,0.1818,0.091,False
+Influenza A/B,1x,2000,molecular,81644429.87,93283.46,0.1143,-0.0571,False
+Influenza A/B,1x,3000,molecular,81691071.6,139925.2,0.1713,0.0,False
+Influenza A/B,1x,4500,molecular,81761034.2,209887.79,0.2567,0.0856,False
+Influenza A/B,1x,6000,molecular,81830996.8,279850.39,0.342,0.1713,False
+Influenza A/B,2x,2000,molecular,91201378.28,186526.44,0.2045,-0.1022,False
+Influenza A/B,2x,3000,molecular,91294641.5,279789.67,0.3065,0.0,False
+Influenza A/B,2x,4500,molecular,91434536.33,419684.5,0.459,0.1532,False
+Influenza A/B,2x,6000,molecular,91574431.17,559579.33,0.6111,0.3065,False
+Measles,0.5x,2000,molecular,58309575866.55,0.0,0.0,0.0,False
+Measles,0.5x,3000,molecular,58309575866.55,0.0,0.0,0.0,False
+Measles,0.5x,4500,molecular,58309575866.55,0.0,0.0,0.0,False
+Measles,0.5x,6000,molecular,58309575866.55,0.0,0.0,0.0,False
+Measles,1x,2000,molecular,59641854973.9,0.0,0.0,0.0,False
+Measles,1x,3000,molecular,59641854973.9,0.0,0.0,0.0,False
+Measles,1x,4500,molecular,59641854973.9,0.0,0.0,0.0,False
+Measles,1x,6000,molecular,59641854973.9,0.0,0.0,0.0,False
+Measles,2x,2000,molecular,61319035294.08,0.0,0.0,0.0,False
+Measles,2x,3000,molecular,61319035294.08,0.0,0.0,0.0,False
+Measles,2x,4500,molecular,61319035294.08,0.0,0.0,0.0,False
+Measles,2x,6000,molecular,61319035294.08,0.0,0.0,0.0,False
+Mpox,0.5x,2000,molecular,131960474.5,26617.98,0.0202,-0.0101,False
+Mpox,0.5x,3000,molecular,131973783.49,39926.97,0.0303,0.0,False
+Mpox,0.5x,4500,molecular,131993746.97,59890.45,0.0454,0.0151,False
+Mpox,0.5x,6000,molecular,132013710.45,79853.94,0.0605,0.0303,False
+Mpox,1x,2000,molecular,191835633.78,53235.08,0.0278,-0.0139,False
+Mpox,1x,3000,molecular,191862251.31,79852.61,0.0416,0.0,False
+Mpox,1x,4500,molecular,191902177.62,119778.92,0.0624,0.0208,False
+Mpox,1x,6000,molecular,191942103.93,159705.23,0.0832,0.0416,False
+Mpox,2x,2000,molecular,311580003.87,106466.62,0.0342,-0.0171,False
+Mpox,2x,3000,molecular,311633237.18,159699.94,0.0512,0.0,False
+Mpox,2x,4500,molecular,311713087.15,239549.91,0.0768,0.0256,False
+Mpox,2x,6000,molecular,311792937.12,319399.87,0.1024,0.0512,False
+Norovirus,0.5x,2000,molecular,88714252.41,235621.07,0.2656,-0.1326,False
+Norovirus,0.5x,3000,molecular,88832062.95,353431.6,0.3979,0.0,False
+Norovirus,0.5x,4500,molecular,89008778.75,530147.4,0.5956,0.1989,False
+Norovirus,0.5x,6000,molecular,89185494.55,706863.2,0.7926,0.3979,False
+Norovirus,1x,2000,molecular,102400744.66,429526.51,0.4195,-0.2093,False
+Norovirus,1x,3000,molecular,102615507.91,644289.76,0.6279,0.0,False
+Norovirus,1x,4500,molecular,102937652.79,966434.64,0.9389,0.3139,False
+Norovirus,1x,6000,molecular,103259797.67,1288579.52,1.2479,0.6279,False
+Norovirus,2x,2000,molecular,124015462.78,735756.28,0.5933,-0.2958,False
+Norovirus,2x,3000,molecular,124383340.92,1103634.42,0.8873,0.0,False
+Norovirus,2x,4500,molecular,124935158.13,1655451.63,1.325,0.4436,False
+Norovirus,2x,6000,molecular,125486975.34,2207268.84,1.759,0.8873,False
+SARS-CoV-2,0.5x,2000,molecular,113765496.99,155981.1,0.1371,-0.0685,False
+SARS-CoV-2,0.5x,3000,molecular,113843487.54,233971.66,0.2055,0.0,False
+SARS-CoV-2,0.5x,4500,molecular,113960473.37,350957.48,0.308,0.1028,False
+SARS-CoV-2,0.5x,6000,molecular,114077459.2,467943.31,0.4102,0.2055,False
+SARS-CoV-2,1x,2000,molecular,155435766.01,311917.69,0.2007,-0.1002,False
+SARS-CoV-2,1x,3000,molecular,155591724.86,467876.54,0.3007,0.0,False
+SARS-CoV-2,1x,4500,molecular,155825663.13,701814.81,0.4504,0.1504,False
+SARS-CoV-2,1x,6000,molecular,156059601.4,935753.08,0.5996,0.3007,False
+SARS-CoV-2,2x,2000,molecular,238740653.07,623657.46,0.2612,-0.1304,False
+SARS-CoV-2,2x,3000,molecular,239052481.8,935486.19,0.3913,0.0,False
+SARS-CoV-2,2x,4500,molecular,239520224.89,1403229.28,0.5859,0.1957,False
+SARS-CoV-2,2x,6000,molecular,239987967.98,1870972.37,0.7796,0.3913,False

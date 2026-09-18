@@ -1,0 +1,20 @@
+reconciliation_icu.py  QA LOG
+Run: 2026-09-16T02:48:04.736979Z
+ICU fractions: {"SARS-CoV-2": 0.15, "Influenza A": 0.17, "Influenza B": 0.17, "Mpox": 0.07, "Norovirus": 0.03, "Ebola": 0.35, "Diphtheria": null}
+
+[PASS] ICU=None reproduces baseline B(5) SARS-CoV-2 to <0.01%
+       baseline=512072967.31, rerun=512072967.31, rel_err=0.000000
+[PASS] ICU fraction adds positive cost to SARS-CoV-2
+       total increase=1,216,866, c_icu reported=1,216,866
+[PASS] Reported c_icu matches total increment
+       diff=0.00
+[PASS] Norovirus c_icu > 0 when fraction=0.03, LOS=2
+       c_icu(fraction=0.03,LOS=2)=2,723,726; c_icu(None)=0
+[PASS] Norovirus LOS=2 gives 0.5× LOS=4 cost (proportionality check)
+       ratio LOS2/LOS4 = 0.5
+[PASS] ICU formula produces finite positive value
+       expected_c_icu_d1 = 9,214
+[PASS] LOS=14 gives exactly 2× LOS=7 ICU cost (proportionality)
+       ratio LOS14/LOS7 = 2.0
+
+SUMMARY: 7 PASS, 0 FAIL
