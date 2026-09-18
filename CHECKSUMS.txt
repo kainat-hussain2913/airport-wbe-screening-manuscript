@@ -31,8 +31,8 @@ f26f320baecaa5c0        1498  logs/psa_icu_control_run.log
 42adbb87e5fcb83b        1434  logs/psa_icu_run.log
 7f85c9be2b0845cc        3771  make_fig4.py
 30738198ae9ca136       12840  make_tables_and_figures.py
-ab0ad7fb9b412d63     1384492  manuscript/manuscript.docx
-64b58d2709b9f52e      103463  manuscript/manuscript.md
+bd3799250e3ff57a     1384699  manuscript/manuscript.docx
+e68e1c2fadd01696      103926  manuscript/manuscript.md
 4b859914e0bf91b4       11419  national_scenarios_icu.py
 34328520d1b7ea48       29832  parameters.py
 815e75cc6ef9bab4        3185  plot_decision_surface.py
